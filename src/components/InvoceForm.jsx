@@ -179,8 +179,8 @@ function InvoiceForm() {
                                 <th className="border p-1 md:p-2 text-sm">Description</th>
                                 <th className="border p-1 md:p-2 text-sm">Qty</th>
                                 <th className="border p-1 md:p-2 text-sm">Price</th>
-                                <th className="border p-1 md:p-2 text-sm hidden md:table-cell">CGST%</th>
-                                <th className="border p-1 md:p-2 text-sm hidden md:table-cell">SGST%</th>
+                                <th className="border p-1 md:p-2 text-sm  md:table-cell">CGST%</th>
+                                <th className="border p-1 md:p-2 text-sm  md:table-cell">SGST%</th>
                                 <th className="border p-1 md:p-2 text-sm">IGST%</th>
                                 <th className="border p-1 md:p-2 text-sm">Amount</th>
                                 <th className="border p-1 md:p-2 text-sm">Total</th>
