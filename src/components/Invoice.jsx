@@ -79,7 +79,7 @@ function Invoice() {
             <div id="invoice-content" className="w-[210mm] min-h-[297mm] mx-auto bg-white shadow-lg print:shadow-none print:w-full">
                 {/* Header */}
                 <div className="border-b p-6">
-                    <div className="flex justify-between items-start">
+                    <div className="flex justify-between items-end">
                         <div>
                             {/* <h1 className="text-xl font-bold">Manufacturer and Exporter</h1> */}
                             <p className='font-bold'>Invoice - {invoice.invoiceNumber}</p>
