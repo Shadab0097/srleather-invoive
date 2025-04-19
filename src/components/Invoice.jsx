@@ -65,7 +65,7 @@ function Invoice() {
 
 
     return (
-        <div className="min-h-screen bg-gray-100 p-8 print:p-0 print:bg-white">
+        <div className="min-h-screen sm:bg-gray-100  bg:white p-8 print:p-0 print:bg-white">
             {/* Print Button - Hidden when printing */}
             <div className="max-w-[210mm] mx-auto mb-4 print:hidden">
                 <button
