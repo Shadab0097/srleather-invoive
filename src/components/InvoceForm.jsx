@@ -207,11 +207,11 @@ function InvoiceForm() {
                                         <input min="0" type="number" value={item.price} onChange={(e) => handleItemChange(index, 'price', e.target.value)}
                                             className="w-full text-sm md:text-base" />
                                     </td>
-                                    <td className="border p-1 md:p-2 hidden md:table-cell">
+                                    <td className="border p-1 md:p-2  md:table-cell">
                                         <input min="0" type="number" value={item.cgst} onChange={(e) => handleItemChange(index, 'cgst', e.target.value)}
                                             className="w-full text-sm md:text-base" />
                                     </td>
-                                    <td className="border p-1 md:p-2 hidden md:table-cell">
+                                    <td className="border p-1 md:p-2  md:table-cell">
                                         <input min="0" type="number" value={item.sgst} onChange={(e) => handleItemChange(index, 'sgst', e.target.value)}
                                             className="w-full text-sm md:text-base" />
                                     </td>
