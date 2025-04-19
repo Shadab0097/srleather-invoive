@@ -1,1 +1,1 @@
-export const BASE_URL = location.hostname === 'localhost' ? "http://localhost:1000/api/" : "https://srleather-invoice-backend.vercel.app/"
+export const BASE_URL = location.hostname === 'localhost' ? "http://localhost:1000/api/" : "https://srleather-invoice-backend.vercel.app/api/"
