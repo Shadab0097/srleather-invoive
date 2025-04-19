@@ -83,7 +83,7 @@ export default function Navbar() {
                     {/* <Link to="/profile" className="block text-gray-700 hover:text-blue-600">Profile</Link> */}
                     {/* <Link to="/settings" className="block text-gray-700 hover:text-blue-600">Settings</Link> */}
                     <button
-                        onClick={() => alert("Logging out...")}
+                        onClick={handleAdminLogOut}
                         className="block w-full text-left text-red-500 hover:text-red-600"
                     >
                         Logout
